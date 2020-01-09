@@ -1,4 +1,4 @@
-Namen: Rik, Thijs, Yannick & Mijntje (11309946) <br>
+Namen: Rik, Thijs, Yannick & Mijntje <br>
 Cursustitel: Webprogrammeren en databases <br>
 Opdracht: Voorstel webapplicatie <br>
 Groep: IK12 <br>
