@@ -22,6 +22,7 @@ Er is niets uniekers dan jijzelf. Met onze webapplicatie maak je een quiz over j
 ## Features
 1. Account aanmaken om quizzes in op te slaan
 1. Nieuwe quiz aanmaken door foto's te uploaden en hier vragen (en eventueel tips) bij te schrijven
+1. De mogelijkheid om GIFs toe te voegen aan de quiz
 1. Wachtwoord/pincode toevoegen aan quiz
 1. De quiz delen (via Facebook/email/link o.i.d.)
 1. De quiz doen
@@ -33,14 +34,15 @@ Er is niets uniekers dan jijzelf. Met onze webapplicatie maak je een quiz over j
 1. De scorelijsten delen (via Facebook/email/link o.i.d.)
 
 ## Minimum viable product features
-1. Maak quiz door foto's (van Instagram) te uploaden en hierbij passende vragen en antwoorden in te voeren
-1. Quiz delen met vrienden
+1. Quiz creëren door foto's te uploaden en hierbij passende vragen en antwoorden in te voeren
 1. Quiz maken
+1. GIFs toevoegen
 1. Scorelijsten inzien: wie heeft de meeste vragen goed?
 
 ## Afhankelijkheden
 Databronnen:
-* Instagram API (https://developers.facebook.com/docs/instagram-basic-display-api/)
+* Giphy API 
+* Eigen database-structuur (SQLite): tables voor (1) quiz-creators, (2) de quizvragen en -antwoorden & (3) de resultaten 
 
 Externe componenten:
 * Documentatie HTML, CSS, JavaScript & SQL
@@ -56,9 +58,8 @@ Opmerkelijke punten concurrerende websites:
 * In geen enkele andere quiz worden vragen gesteld op basis van foto’s
 
 Moeilijkste punten realisatie applicatie:
-* Uitzoeken waartoe de Instagram API wel en niet toe in staat is
-* De data daadwerkelijk ophalen met behulp van de Instagram API
-* De opgehaalde data (foto’s van de gebruiker) integreren in de quiz
+* Uitzoeken hoe de database-structuur van de quiz ingedeeld gaat worden
+* De opgehaalde data (GIFs) integreren in de quiz
 * Een consistente en flowende user experience bewerkstelligen
 
 
